@@ -9,7 +9,7 @@ int main(void)
 
   total = pre_tax + (pre_tax * 0.05);
 
-  printf("Answer: %.4f\n", total);
+  printf("Answer: %.2f\n", total);
 
   return 0;
 }

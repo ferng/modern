@@ -21,9 +21,9 @@ int main(void)
   month_3 = (month_2 - payment);
   month_3 = month_3 + (month_2 * rate);
 
-  printf("month_1: %f\n", month_1);
-  printf("month_2: %f\n", month_2);
-  printf("month_3: %f\n", month_3);
+  printf("month_1: %.2f\n", month_1);
+  printf("month_2: %.2f\n", month_2);
+  printf("month_3: %.2f\n", month_3);
 
   return 0;
 }

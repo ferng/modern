@@ -5,7 +5,7 @@ int main(void)
   int height = 8;
   int length = 12;
   int width = 10;
-  int volume, weight;
+  int volume;
 
   volume = height * length * width;
 
